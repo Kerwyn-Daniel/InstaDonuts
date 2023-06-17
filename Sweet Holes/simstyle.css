@@ -1,0 +1,105 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+  top: 300px;
+  float: left;
+}
+
+.simall{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: solid black;
+}
+
+.auto{
+    margin : 1em;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+background-color: aliceblue;
+}
+
+.header {
+    position: fixed;
+    margin : 20px;
+    border : solid lightseagreen;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.top{
+  /* position: absolute; */
+  margin: 0;
+  justify-content: space-around;
+  background: rgb(42, 41, 41);
+}
+.top:after{
+  content: '';
+  clear:both;
+  display: block;
+}
+
+.top ul{
+  list-style: none;
+  margin: 0;
+}
+.top > ul > li{
+  float: left;
+  position: relative;
+}
+
+.top ul li   a {
+  text-decoration: none;
+  color: #929191;
+  padding: 15px 20px;
+  display: block;
+}
+.top ul li:hover a{
+  background: #032045;
+}
+.top ul ul{
+  position: absolute;
+  padding: 0;
+  min-width: 160px;
+  display: none;
+  top: 100%;
+  left: 0;
+}
+
+.top ul li:hover > ul{
+  display: block;
+}
+
+.top ul ul li:hover a{
+  background: wheat;
+}
+
+.top ul ul li{
+  position:relative;
+}
+.top ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.top ul ul ul li:hover a{
+  background: white;
+}
+
+
+.bal{
+    margin: 3px;
+    padding: 3px;
+    border: solid rgb(27, 32, 41);
+}
+/*footer styling*/
+footer{
+    text-align: center;
+}

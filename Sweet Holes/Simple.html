@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="main" href="index.html">
+    <link rel="stylesheet" href="simstyle.css">
+    <title>InstaDonuts - Simple</title>
+    <link rel="icon" href="/Images/sico.jpg">
+</head>
+<body>
+    <nav class="top">
+        <ul>
+            <!-- menu info along with dropdown in between -->
+        <li><a href="#"> About InstaDonuts </a>
+        <ul>
+            <li><a href="#"><button id="his" onclick="shown()">The Beginnings</button> </a></li>
+        </ul>
+        </li>
+        <li><a href="#">Overcoming Challenges </a>
+            <ul>
+                <li><a href="#">Iteration 1</a></li>
+                <li><a href="#">Iteration 2</a></li>
+                <li><a href="#">Iteration 3</a></li>
+                <li><a href="#">Iteration 4</a></li>
+            </ul></li>
+        <li><a href="https://kerwyn-daniel.github.io/Pro-Profile/"> The Creator </a></li>
+        <li><a href="https://orteil.dashnet.org/cookieclicker/"> Cookie Clicker </a></li>
+        <li><a id="change" href="#beyou"> Customize! </a>
+            <ul>
+                <li><a href="#">Choose Character!</a>
+                <ul>
+                    <li><a href="#">Bear</a></li>
+                    <li><a href="#">Cute</a></li>
+                    <li><a href="#">Dragon</a></li>
+                    <li><a href="#">Girl</a></li>
+                    <li><a href="#">Penguin</a></li>
+                    <li><a href="#">Tiger</a></li>
+                    <!-- <li><a href="#">7</a></li> -->
+                </ul></li>
+                <!-- <li><a href="#">Choose Clicker!</a>
+                <ul>
+                    <li><a href="#">C1</a></li>
+                    <li><a href="#">C2</a></li>
+                    <li><a href="#">C3</a></li>
+                </ul></li> -->
+            </ul></li>
+        <li><a href="thoughts"> Game Survey </a></li>
+        <li><a href="Simple.html"> Simple Version</a></li>
+    </ul>
+    </nav>
+    <div class="header">   
+    <h1> Donut Clicker Project</h1>
+    <span>Click a donut and keep count!</span>
+</div>
+    
+    <div class="simall">
+        <h2>The "Donut Clicker"</h2>
+        <article id="main">   
+            <p>Here is the donut clicker</p>
+            <button type="button" name="buttonm" id="donutClick"><img src="/Clickers/single.jpeg"></button>
+            <p> Click the Donut ^^^ !!</p>
+            <button onclick="location.reload()"id="restart">Reset Counts</button>
+        </article>
+
+        <article>   
+            <h3> Balance</h3>
+            <div class="bal">
+            <p> A view of current donuts click and total donuts clicked</p>
+            <p>Total Donuts Clicked : <span id="totCount"></span></p>
+            <p>Current Donuts Clicked : <span id="curCount"></span></p> 
+            <p>Total Auto Clickers : <span id="taCli"></span></p>
+            <!-- <p>Timer elapsed test : <span id="cTest"></span></p> -->
+        </div>
+        </article>
+
+    </div>
+</div>
+
+<!-- <div class="abouts" id="infu">
+<p>Fred, the CEO and Founder of Fred Baking Company is ready to retire!! In order 
+    to retire, he wants developers to take a concept,
+    Donut Maker Clicker, from the drawing board to the browser. He needs our help to 
+    keep his love of donuts alive! We created a game that uses 
+    button clicks to create virtual donuts for the world to enjoy. It's always 
+    "Time to make the Donuts" and Fred was too tired and busy to give us guidance on how to 
+    implement these requirements. This a version of the concept in action!!</p>
+
+</div> -->
+
+<aside> 
+    <div class="auto">   
+        <h3> Choose Auto Clickers </h3>
+        <p><button type="button" class="buttona" id="cheat">Cheat code</button>
+        <p>Ths panel is where users can choose their auto clickers 
+        <!-- 1st auto clicker purchase -->
+
+<p><button type="button" class="buttona" id="easy">Easy Bake Oven (<span id="ovc"></span>)<p id="bake"></p></button>
+<!-- 2nd auto clicker purchase -->
+<button type="button" class="buttona" id="Home">At Home Donut Maker(<span id="hdm"></span>)<p id="at"></p></button>
+<!-- 3rd auto clicker purchase -->
+<button type="button" class="buttona" id="tuber">Influencer(<span id="tub"></span>)<p id="inf"></p></button>
+<!-- 4th clicker purchase -->
+<button type="button" class="buttona" id="comm">Storefront(<span id="stf"></span>)<p id="front"></p></button>
+<!-- Retire Fred auto clicker purchase -->
+<button type="button" class="buttona" id="fred">The Legend Himself(<span id="ld"></span>)<p id="frede"></p></button>
+</p>
+</div>
+</aside>
+
+    <!-- <nav class="sina">
+<ul>
+        <li><a href="#"> About InstaDonuts </a>
+        <ul>
+            <li>
+                <a href="#"><button>The Beginnings</button></a>
+            </li>
+        </ul> </li>
+        
+        <!-- <div class="dropdown">
+        <button class="dropbtn">Overcoming Challenges <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Iteration 1</a>
+            <a href="#">Iteration 2</a>
+            <a href="#">Iteration 3</a>
+            <a href="#">Iteration 4</a>
+            </div>
+        </div> 
+        <li><a href="https://orteil.dashnet.org/cookieclicker/"> Cookie Clicker </a></li>
+        <li><a href="https://kerwyn-daniel.github.io/Pro-Profile/"> The Creator </a> </li>
+        <li><a href="thoughts"> Game Survey </a></li>
+        <li><a href="index.html"> Final Version</a></li>
+    </ul>
+    </nav> -->
+    <footer id="classLinks"> This space is for 3 lucky class mates</footer>
+    <footer>
+        InstaDonuts&copy;2023. A B1-PT Cohort Project! 
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>

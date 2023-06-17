@@ -1,0 +1,134 @@
+a{ 
+    font-size: 12px;
+    color: antiquewhite;
+    text-decoration-color: rgb(177, 118, 29);
+    text-transform: uppercase;
+    /* justify-content:center;
+    text-align: center; */
+}
+
+.top{
+    /* position: absolute; */
+    margin: 0;
+    justify-content: space-around;
+    background: rgb(42, 41, 41);
+}
+.top:after{
+    content: '';
+    clear:both;
+    display: block;
+}
+
+.top ul{
+    list-style: none;
+    margin: 0;
+}
+.top > ul > li{
+    float: left;
+    position: relative;
+}
+
+.top ul li   a {
+    text-decoration: none;
+    color: #929191;
+    padding: 15px 20px;
+    display: block;
+}
+.top ul li:hover a{
+    background: #032045;
+}
+.top ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.top ul li:hover > ul{
+    display: block;
+}
+
+.top ul ul li:hover a{
+    background: wheat;
+}
+
+.top ul ul li{
+    position:relative;
+}
+.top ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.top ul ul ul li:hover a{
+    background: white;
+}
+
+
+
+footer{
+    text-align:  center;
+}
+
+
+
+/* .top{
+    overflow: hidden;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; */ */
+    /* display: flexbox; */
+    /* flex-flow: row;
+    justify-content: center;
+    justify-content: space-around; 
+    background-color: blanchedalmond; 
+}
+/* .top a  {
+    float: left;
+    display: flexbox;
+    color: coral;
+    padding: 0.5em 0.2em;
+    text-decoration: none;
+    background-color: antiquewhite;
+    /* color: #f34646; */
+    /* } */ 
+    /* nav a:hover{
+        background:#123
+    } */
+
+    /* .char {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+}
+.nucli {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+}
+
+#change:hover {
+        display:flex;
+        flex-direction: column;
+}
+.char:hover{
+    display: block;
+}
+.nucli:hover{
+    display: block;
+}
+#change:hover{
+        display:block;
+} */
